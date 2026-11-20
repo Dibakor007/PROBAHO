@@ -6,17 +6,17 @@ const API_BASE = rawApiUrl.endsWith('/ai') ? rawApiUrl.slice(0, -3) : rawApiUrl;
 
 const api = axios.create({
   baseURL: API_BASE,
-  timeout: 120000,
+  timeout: 15000,
   headers: { 'Content-Type': 'application/json' },
 });
 
 export function useHealthCheck() {
-  const [status, setStatus] = useState('checking'); // 'checking' | 'healthy' | 'waking' | 'error'
+  const [status, setStatus] = useState('checking'); // 'checking' | 'healthy' | 'waking' | 'demo'
   const intervalRef = useRef(null);
 
   const check = useCallback(async () => {
     try {
-      const res = await api.get('/ai/health', { timeout: 10000 });
+      const res = await api.get('/ai/health', { timeout: 3000 });
       if (res.data?.status === 'healthy' || res.status === 200) {
         setStatus('healthy');
         if (intervalRef.current) {
@@ -24,16 +24,16 @@ export function useHealthCheck() {
           intervalRef.current = null;
         }
       } else {
-        setStatus('waking');
+        setStatus('demo');
       }
     } catch {
-      setStatus('waking');
+      setStatus('demo');
     }
   }, []);
 
   useEffect(() => {
     check();
-    intervalRef.current = setInterval(check, 5000);
+    intervalRef.current = setInterval(check, 30000);
     return () => {
       if (intervalRef.current) clearInterval(intervalRef.current);
     };

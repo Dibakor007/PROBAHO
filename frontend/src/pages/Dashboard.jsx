@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { t } from '../utils/translations';
 import useApi from '../hooks/useApi';
+import { NODE_API_BASE } from '../services/api';
 import KPICard from '../components/KPICard';
 import AlertCard from '../components/AlertCard';
 import { 
@@ -33,7 +34,7 @@ export default function Dashboard() {
         const [inv, audit, supRisk] = await Promise.all([
           get('/ai/inventory').catch(() => null),
           get('/ai/audit').catch(() => null),
-          fetch('http://localhost:5000/api/supplier-risk')
+          fetch(`${NODE_API_BASE}/supplier-risk`, { signal: AbortSignal.timeout(3000) })
             .then(r => r.json())
             .catch(() => ({
               suppliers: [
