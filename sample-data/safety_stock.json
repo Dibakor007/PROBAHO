@@ -1,0 +1,212 @@
+[
+  {
+    "facility_id": "FAC-001",
+    "medicine_id": "MED-001",
+    "average_daily_consumption": 59.95,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 839.3
+  },
+  {
+    "facility_id": "FAC-001",
+    "medicine_id": "MED-002",
+    "average_daily_consumption": 32.21,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 450.94
+  },
+  {
+    "facility_id": "FAC-001",
+    "medicine_id": "MED-003",
+    "average_daily_consumption": 22.53,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 315.42
+  },
+  {
+    "facility_id": "FAC-001",
+    "medicine_id": "MED-004",
+    "average_daily_consumption": 15.03,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 210.42
+  },
+  {
+    "facility_id": "FAC-001",
+    "medicine_id": "MED-005",
+    "average_daily_consumption": 29.68,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 415.52
+  },
+  {
+    "facility_id": "FAC-002",
+    "medicine_id": "MED-001",
+    "average_daily_consumption": 59.55,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 833.7
+  },
+  {
+    "facility_id": "FAC-002",
+    "medicine_id": "MED-002",
+    "average_daily_consumption": 32.5,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 455.0
+  },
+  {
+    "facility_id": "FAC-002",
+    "medicine_id": "MED-003",
+    "average_daily_consumption": 22.61,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 316.54
+  },
+  {
+    "facility_id": "FAC-002",
+    "medicine_id": "MED-004",
+    "average_daily_consumption": 15.06,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 210.84
+  },
+  {
+    "facility_id": "FAC-002",
+    "medicine_id": "MED-005",
+    "average_daily_consumption": 30.13,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 421.82
+  },
+  {
+    "facility_id": "FAC-003",
+    "medicine_id": "MED-001",
+    "average_daily_consumption": 59.68,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 835.52
+  },
+  {
+    "facility_id": "FAC-003",
+    "medicine_id": "MED-002",
+    "average_daily_consumption": 32.46,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 454.44
+  },
+  {
+    "facility_id": "FAC-003",
+    "medicine_id": "MED-003",
+    "average_daily_consumption": 22.47,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 314.58
+  },
+  {
+    "facility_id": "FAC-003",
+    "medicine_id": "MED-004",
+    "average_daily_consumption": 14.86,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 208.04
+  },
+  {
+    "facility_id": "FAC-003",
+    "medicine_id": "MED-005",
+    "average_daily_consumption": 30.19,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 422.66
+  },
+  {
+    "facility_id": "FAC-004",
+    "medicine_id": "MED-001",
+    "average_daily_consumption": 22.53,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 315.42
+  },
+  {
+    "facility_id": "FAC-004",
+    "medicine_id": "MED-002",
+    "average_daily_consumption": 12.51,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 175.14
+  },
+  {
+    "facility_id": "FAC-004",
+    "medicine_id": "MED-003",
+    "average_daily_consumption": 8.57,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 119.98
+  },
+  {
+    "facility_id": "FAC-004",
+    "medicine_id": "MED-004",
+    "average_daily_consumption": 5.97,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 83.58
+  },
+  {
+    "facility_id": "FAC-004",
+    "medicine_id": "MED-005",
+    "average_daily_consumption": 13.42,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 187.88
+  },
+  {
+    "facility_id": "FAC-005",
+    "medicine_id": "MED-001",
+    "average_daily_consumption": 22.26,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 311.64
+  },
+  {
+    "facility_id": "FAC-005",
+    "medicine_id": "MED-002",
+    "average_daily_consumption": 12.37,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 173.18
+  },
+  {
+    "facility_id": "FAC-005",
+    "medicine_id": "MED-003",
+    "average_daily_consumption": 8.53,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 119.42
+  },
+  {
+    "facility_id": "FAC-005",
+    "medicine_id": "MED-004",
+    "average_daily_consumption": 6.02,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 84.28
+  },
+  {
+    "facility_id": "FAC-005",
+    "medicine_id": "MED-005",
+    "average_daily_consumption": 13.32,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 186.48
+  },
+  {
+    "facility_id": "FAC-006",
+    "medicine_id": "MED-001",
+    "average_daily_consumption": 22.28,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 311.92
+  },
+  {
+    "facility_id": "FAC-006",
+    "medicine_id": "MED-002",
+    "average_daily_consumption": 12.44,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 174.16
+  },
+  {
+    "facility_id": "FAC-006",
+    "medicine_id": "MED-003",
+    "average_daily_consumption": 8.45,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 118.3
+  },
+  {
+    "facility_id": "FAC-006",
+    "medicine_id": "MED-004",
+    "average_daily_consumption": 6.0,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 84.0
+  },
+  {
+    "facility_id": "FAC-006",
+    "medicine_id": "MED-005",
+    "average_daily_consumption": 13.33,
+    "safety_stock_days": 14,
+    "safety_stock_quantity": 186.62
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "RT-001",
+    "from_id": "WH-001",
+    "to_id": "FAC-001",
+    "lead_time_days": 2,
+    "cost_per_unit": 1.85
+  },
+  {
+    "id": "RT-002",
+    "from_id": "WH-001",
+    "to_id": "FAC-002",
+    "lead_time_days": 1,
+    "cost_per_unit": 0.88
+  },
+  {
+    "id": "RT-003",
+    "from_id": "WH-001",
+    "to_id": "FAC-003",
+    "lead_time_days": 2,
+    "cost_per_unit": 0.5
+  },
+  {
+    "id": "RT-004",
+    "from_id": "WH-001",
+    "to_id": "FAC-004",
+    "lead_time_days": 2,
+    "cost_per_unit": 1.05
+  },
+  {
+    "id": "RT-005",
+    "from_id": "WH-001",
+    "to_id": "FAC-005",
+    "lead_time_days": 2,
+    "cost_per_unit": 1.92
+  },
+  {
+    "id": "RT-006",
+    "from_id": "WH-001",
+    "to_id": "FAC-006",
+    "lead_time_days": 3,
+    "cost_per_unit": 1.43
+  },
+  {
+    "id": "RT-007",
+    "from_id": "FAC-001",
+    "to_id": "FAC-004",
+    "lead_time_days": 3,
+    "cost_per_unit": 1.77
+  },
+  {
+    "id": "RT-008",
+    "from_id": "FAC-002",
+    "to_id": "FAC-005",
+    "lead_time_days": 3,
+    "cost_per_unit": 1.85
+  },
+  {
+    "id": "RT-009",
+    "from_id": "FAC-003",
+    "to_id": "FAC-006",
+    "lead_time_days": 3,
+    "cost_per_unit": 0.96
+  },
+  {
+    "id": "RT-010",
+    "from_id": "FAC-001",
+    "to_id": "FAC-002",
+    "lead_time_days": 2,
+    "cost_per_unit": 0.99
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "SUP-001",
+    "name": "Dhaka Pharma Ingredients Ltd",
+    "location": "Dhaka",
+    "coords": [
+      23.8103,
+      90.4125
+    ],
+    "type": "supplier"
+  },
+  {
+    "id": "MFG-001",
+    "name": "Bengal Pharma Manufacturing",
+    "location": "Gazipur",
+    "coords": [
+      24.0,
+      90.43
+    ],
+    "type": "manufacturer",
+    "capacity_units_per_day": 10000,
+    "production_lag_days": 2,
+    "ingredient_per_unit": 0.5
+  },
+  {
+    "id": "WH-001",
+    "name": "Central Medical Store Depot",
+    "location": "Dhaka",
+    "coords": [
+      23.78,
+      90.4
+    ],
+    "type": "warehouse"
+  },
+  {
+    "id": "FAC-001",
+    "name": "সাভার উপজেলা স্বাস্থ্য কমপ্লেক্স",
+    "name_en": "Savar Upazila Health Complex",
+    "location": "Savar",
+    "coords": [
+      23.8583,
+      90.2567
+    ],
+    "type": "facility",
+    "subtype": "upazila_health_complex",
+    "capacity": 5000
+  },
+  {
+    "id": "FAC-002",
+    "name": "দোহার উপজেলা স্বাস্থ্য কমপ্লেক্স",
+    "name_en": "Dohar Upazila Health Complex",
+    "location": "Dohar",
+    "coords": [
+      23.59,
+      90.13
+    ],
+    "type": "facility",
+    "subtype": "upazila_health_complex",
+    "capacity": 5000
+  },
+  {
+    "id": "FAC-003",
+    "name": "কেরানীগঞ্জ উপজেলা স্বাস্থ্য কমপ্লেক্স",
+    "name_en": "Keraniganj Upazila Health Complex",
+    "location": "Keraniganj",
+    "coords": [
+      23.7,
+      90.34
+    ],
+    "type": "facility",
+    "subtype": "upazila_health_complex",
+    "capacity": 5000
+  },
+  {
+    "id": "FAC-004",
+    "name": "হাসনাবাদ কমিউনিটি ক্লিনিক",
+    "name_en": "Hasnabad Community Clinic",
+    "location": "Hasnabad",
+    "coords": [
+      23.87,
+      90.26
+    ],
+    "type": "facility",
+    "subtype": "community_clinic",
+    "capacity": 2000
+  },
+  {
+    "id": "FAC-005",
+    "name": "নবাবগঞ্জ কমিউনিটি ক্লিনিক",
+    "name_en": "Nabagram Community Clinic",
+    "location": "Nabagram",
+    "coords": [
+      23.58,
+      90.12
+    ],
+    "type": "facility",
+    "subtype": "community_clinic",
+    "capacity": 2000
+  },
+  {
+    "id": "FAC-006",
+    "name": "তেঘরিয়া কমিউনিটি ক্লিনিক",
+    "name_en": "Teghoria Community Clinic",
+    "location": "Teghoria",
+    "coords": [
+      23.71,
+      90.35
+    ],
+    "type": "facility",
+    "subtype": "community_clinic",
+    "capacity": 2000
+  }
+]

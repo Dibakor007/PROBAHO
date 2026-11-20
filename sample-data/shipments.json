@@ -1,0 +1,40 @@
+[
+  {
+    "id": "SHP-001",
+    "supplier_id": "SUP-001",
+    "ingredient_name": "Paracetamol Pure Powder",
+    "quantity_kg": 5000,
+    "status": "in_transit",
+    "departure_date": "2025-07-01",
+    "scheduled_arrival": "2025-07-15",
+    "delay_days": 3,
+    "port_of_entry": "Chittagong Port",
+    "risk_level": "medium"
+  },
+  {
+    "id": "SHP-002",
+    "supplier_id": "SUP-002",
+    "ingredient_name": "Amoxicillin Trihydrate Compacted",
+    "quantity_kg": 2500,
+    "status": "delivered",
+    "departure_date": "2025-06-20",
+    "scheduled_arrival": "2025-07-05",
+    "actual_arrival": "2025-07-06",
+    "delay_days": 1,
+    "port_of_entry": "Chittagong Port",
+    "risk_level": "low"
+  },
+  {
+    "id": "SHP-003",
+    "supplier_id": "SUP-003",
+    "ingredient_name": "Metformin Hydrochloride",
+    "quantity_kg": 3500,
+    "status": "delayed",
+    "departure_date": "2025-06-25",
+    "scheduled_arrival": "2025-07-10",
+    "delay_days": 12,
+    "port_of_entry": "Mongla Port",
+    "risk_level": "high"
+  }
+]
+
