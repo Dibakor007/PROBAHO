@@ -4,6 +4,7 @@ import { requireRole } from '../middleware/rbac.js';
 import { validateStockCSV } from '../services/csvValidator.js';
 import { aiClient } from '../services/aiClient.js';
 import { auditChainInstance } from '../services/auditChain.js';
+import { getFallbackInventory } from '../services/fallbackInventory.js';
 
 const router = express.Router();
 
@@ -16,7 +17,11 @@ router.get('/', async (req, res) => {
       inventory: data
     });
   } catch (err) {
-    res.status(500).json({ error: 'Failed to fetch inventory from AI service', details: err.message });
+    // Graceful fallback to synthetic inventory dataset
+    res.json({
+      data_label: 'Synthetic data (Fallback mode)',
+      inventory: getFallbackInventory()
+    });
   }
 });
 
