@@ -1,0 +1,57 @@
+# ──────────────────────────────────────
+# Python
+# ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.whl
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+*.cover
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# ──────────────────────────────────────
+# Node.js / Frontend
+# ──────────────────────────────────────
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# ──────────────────────────────────────
+# Environment & secrets
+# ──────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ──────────────────────────────────────
+# Generated / runtime
+# ──────────────────────────────────────
+evaluation/report.json
+
+# ──────────────────────────────────────
+# IDE / OS / Binaries
+# ──────────────────────────────────────
+*.exe
+powershell.exe
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
