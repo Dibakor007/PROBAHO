@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import axios from 'axios';
 
-const rawApiUrl = (import.meta.env.VITE_API_URL || 'http://localhost:8000').replace(/\/+$/, '');
+const rawApiUrl = (import.meta.env.VITE_API_URL || 'https://probaho-backend-vdxy.onrender.com').replace(/\/+$/, '');
 const API_BASE = rawApiUrl.endsWith('/ai') ? rawApiUrl.slice(0, -3) : rawApiUrl;
 
 const api = axios.create({

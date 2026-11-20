@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-const rawBackendUrl = (import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000').replace(/\/+$/, '');
+const rawBackendUrl = (import.meta.env.VITE_BACKEND_URL || 'https://probaho-backend-vdxy.onrender.com').replace(/\/+$/, '');
 export const NODE_API_BASE = rawBackendUrl.endsWith('/api') ? rawBackendUrl : `${rawBackendUrl}/api`;
 
-const rawApiUrl = (import.meta.env.VITE_API_URL || 'http://localhost:8000').replace(/\/+$/, '');
+const rawApiUrl = (import.meta.env.VITE_API_URL || 'https://probaho-backend-vdxy.onrender.com').replace(/\/+$/, '');
 export const AI_SERVICE_BASE = rawApiUrl.endsWith('/ai') ? rawApiUrl : `${rawApiUrl}/ai`;
 
 export const apiClient = axios.create({
