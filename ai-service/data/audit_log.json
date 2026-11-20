@@ -1,0 +1,82 @@
+[
+  {
+    "timestamp": "2026-11-20T15:22:04.544141+00:00",
+    "event_type": "optimization_run",
+    "details": {
+      "reference_date": "2025-07-15",
+      "num_transfers": 0,
+      "total_cost": 0
+    },
+    "user_name": null,
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "hash": "2965c4aab6c92d8fc6f09494d156b37059095e8b230ee0dc137b13185fe09966"
+  },
+  {
+    "timestamp": "2026-11-20T16:31:36.458628+00:00",
+    "event_type": "simulation_run",
+    "details": {
+      "scenario": {
+        "shipment_delay_days": 14,
+        "supplier_shortfall_pct": 0.3,
+        "freight_cost_increase_pct": 0.4,
+        "manufacturing_capacity_cut_pct": 0.25
+      },
+      "reference_date": "2025-07-15",
+      "horizon": 60
+    },
+    "user_name": null,
+    "previous_hash": "2965c4aab6c92d8fc6f09494d156b37059095e8b230ee0dc137b13185fe09966",
+    "hash": "4405073076512817a55a115453aec739719ff0b94fafe799ab613b9a65b91f76"
+  },
+  {
+    "timestamp": "2026-11-20T16:33:51.925421+00:00",
+    "event_type": "simulation_run",
+    "details": {
+      "scenario": {
+        "shipment_delay_days": 14,
+        "supplier_shortfall_pct": 0.3,
+        "freight_cost_increase_pct": 0.4,
+        "manufacturing_capacity_cut_pct": 0.25
+      },
+      "reference_date": "2025-07-15",
+      "horizon": 60
+    },
+    "user_name": null,
+    "previous_hash": "4405073076512817a55a115453aec739719ff0b94fafe799ab613b9a65b91f76",
+    "hash": "69ffb48c56760ec2a6da6af99fb552e25c3183b82a43a8c615db997a59b0239e"
+  },
+  {
+    "timestamp": "2026-11-20T16:39:19.833685+00:00",
+    "event_type": "simulation_run",
+    "details": {
+      "scenario": {
+        "shipment_delay_days": 14,
+        "supplier_shortfall_pct": 0.3,
+        "freight_cost_increase_pct": 0.4,
+        "manufacturing_capacity_cut_pct": 0.25
+      },
+      "reference_date": "2025-07-15",
+      "horizon": 60
+    },
+    "user_name": null,
+    "previous_hash": "69ffb48c56760ec2a6da6af99fb552e25c3183b82a43a8c615db997a59b0239e",
+    "hash": "cdd36448b7c37c794ee804616132c670f95955a5f654fcd3dca7016271648fec"
+  },
+  {
+    "timestamp": "2026-11-20T16:45:21.980771+00:00",
+    "event_type": "simulation_run",
+    "details": {
+      "scenario": {
+        "shipment_delay_days": 14,
+        "supplier_shortfall_pct": 0.3,
+        "freight_cost_increase_pct": 0.4,
+        "manufacturing_capacity_cut_pct": 0.25
+      },
+      "reference_date": "2025-07-15",
+      "horizon": 60
+    },
+    "user_name": null,
+    "previous_hash": "cdd36448b7c37c794ee804616132c670f95955a5f654fcd3dca7016271648fec",
+    "hash": "e8a222ec110d1ccb7d4baec730483fa9a9a4a330b1e0eb87b76ed6d5a08fa0b8"
+  }
+]

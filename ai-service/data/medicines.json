@@ -1,0 +1,27 @@
+[
+  {
+    "id": "MED-001",
+    "name": "Paracetamol 500mg",
+    "form": "tablet"
+  },
+  {
+    "id": "MED-002",
+    "name": "Amoxicillin 500mg",
+    "form": "capsule"
+  },
+  {
+    "id": "MED-003",
+    "name": "Metformin 500mg",
+    "form": "tablet"
+  },
+  {
+    "id": "MED-004",
+    "name": "Omeprazole 20mg",
+    "form": "capsule"
+  },
+  {
+    "id": "MED-005",
+    "name": "ORS Sachets",
+    "form": "sachet"
+  }
+]

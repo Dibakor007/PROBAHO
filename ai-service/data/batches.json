@@ -1,0 +1,922 @@
+[
+  {
+    "id": "BAT-0001",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-001",
+    "quantity": 157,
+    "manufacture_date": "2024-02-23",
+    "expiry_date": "2025-06-27"
+  },
+  {
+    "id": "BAT-0002",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-001",
+    "quantity": 214,
+    "manufacture_date": "2023-08-08",
+    "expiry_date": "2025-07-19"
+  },
+  {
+    "id": "BAT-0003",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-001",
+    "quantity": 479,
+    "manufacture_date": "2024-10-30",
+    "expiry_date": "2026-08-28"
+  },
+  {
+    "id": "BAT-0004",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-001",
+    "quantity": 316,
+    "manufacture_date": "2024-03-20",
+    "expiry_date": "2025-07-09"
+  },
+  {
+    "id": "BAT-0005",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-001",
+    "quantity": 219,
+    "manufacture_date": "2024-10-14",
+    "expiry_date": "2026-07-28"
+  },
+  {
+    "id": "BAT-0006",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-001",
+    "quantity": 466,
+    "manufacture_date": "2025-09-18",
+    "expiry_date": "2027-04-20"
+  },
+  {
+    "id": "BAT-0007",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-001",
+    "quantity": 212,
+    "manufacture_date": "2025-12-01",
+    "expiry_date": "2026-12-04"
+  },
+  {
+    "id": "BAT-0008",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-001",
+    "quantity": 488,
+    "manufacture_date": "2025-12-03",
+    "expiry_date": "2027-07-07"
+  },
+  {
+    "id": "BAT-0009",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-001",
+    "quantity": 242,
+    "manufacture_date": "2024-02-19",
+    "expiry_date": "2025-08-09"
+  },
+  {
+    "id": "BAT-0010",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-001",
+    "quantity": 152,
+    "manufacture_date": "2024-01-07",
+    "expiry_date": "2025-07-08"
+  },
+  {
+    "id": "BAT-0011",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-001",
+    "quantity": 276,
+    "manufacture_date": "2024-12-14",
+    "expiry_date": "2026-08-06"
+  },
+  {
+    "id": "BAT-0012",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-001",
+    "quantity": 374,
+    "manufacture_date": "2024-02-03",
+    "expiry_date": "2025-08-14"
+  },
+  {
+    "id": "BAT-0013",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-001",
+    "quantity": 382,
+    "manufacture_date": "2025-07-20",
+    "expiry_date": "2027-06-01"
+  },
+  {
+    "id": "BAT-0014",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-001",
+    "quantity": 285,
+    "manufacture_date": "2026-06-05",
+    "expiry_date": "2027-07-10"
+  },
+  {
+    "id": "BAT-0015",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-001",
+    "quantity": 123,
+    "manufacture_date": "2025-10-31",
+    "expiry_date": "2026-12-10"
+  },
+  {
+    "id": "BAT-0016",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-001",
+    "quantity": 151,
+    "manufacture_date": "2025-04-13",
+    "expiry_date": "2027-03-04"
+  },
+  {
+    "id": "BAT-0017",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-001",
+    "quantity": 286,
+    "manufacture_date": "2024-04-11",
+    "expiry_date": "2025-07-27"
+  },
+  {
+    "id": "BAT-0018",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-001",
+    "quantity": 443,
+    "manufacture_date": "2025-08-02",
+    "expiry_date": "2027-06-29"
+  },
+  {
+    "id": "BAT-0019",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-002",
+    "quantity": 411,
+    "manufacture_date": "2025-12-10",
+    "expiry_date": "2027-04-14"
+  },
+  {
+    "id": "BAT-0020",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-002",
+    "quantity": 183,
+    "manufacture_date": "2025-01-07",
+    "expiry_date": "2026-11-30"
+  },
+  {
+    "id": "BAT-0021",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-002",
+    "quantity": 452,
+    "manufacture_date": "2026-01-15",
+    "expiry_date": "2027-06-30"
+  },
+  {
+    "id": "BAT-0022",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-002",
+    "quantity": 217,
+    "manufacture_date": "2025-06-01",
+    "expiry_date": "2026-12-23"
+  },
+  {
+    "id": "BAT-0023",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-002",
+    "quantity": 237,
+    "manufacture_date": "2023-08-01",
+    "expiry_date": "2025-05-17"
+  },
+  {
+    "id": "BAT-0024",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-002",
+    "quantity": 467,
+    "manufacture_date": "2025-10-03",
+    "expiry_date": "2027-06-15"
+  },
+  {
+    "id": "BAT-0025",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-002",
+    "quantity": 429,
+    "manufacture_date": "2025-09-17",
+    "expiry_date": "2026-11-27"
+  },
+  {
+    "id": "BAT-0026",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-002",
+    "quantity": 226,
+    "manufacture_date": "2025-12-03",
+    "expiry_date": "2027-04-16"
+  },
+  {
+    "id": "BAT-0027",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-002",
+    "quantity": 482,
+    "manufacture_date": "2025-10-17",
+    "expiry_date": "2027-05-09"
+  },
+  {
+    "id": "BAT-0028",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-002",
+    "quantity": 285,
+    "manufacture_date": "2023-11-03",
+    "expiry_date": "2025-07-20"
+  },
+  {
+    "id": "BAT-0029",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-002",
+    "quantity": 146,
+    "manufacture_date": "2025-06-23",
+    "expiry_date": "2026-09-09"
+  },
+  {
+    "id": "BAT-0030",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-002",
+    "quantity": 421,
+    "manufacture_date": "2024-01-03",
+    "expiry_date": "2025-08-06"
+  },
+  {
+    "id": "BAT-0031",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-002",
+    "quantity": 405,
+    "manufacture_date": "2023-08-20",
+    "expiry_date": "2025-06-20"
+  },
+  {
+    "id": "BAT-0032",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-002",
+    "quantity": 339,
+    "manufacture_date": "2026-04-19",
+    "expiry_date": "2027-04-24"
+  },
+  {
+    "id": "BAT-0033",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-002",
+    "quantity": 469,
+    "manufacture_date": "2023-11-13",
+    "expiry_date": "2025-08-13"
+  },
+  {
+    "id": "BAT-0034",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-002",
+    "quantity": 484,
+    "manufacture_date": "2025-12-16",
+    "expiry_date": "2027-06-08"
+  },
+  {
+    "id": "BAT-0035",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-002",
+    "quantity": 157,
+    "manufacture_date": "2025-02-13",
+    "expiry_date": "2026-10-03"
+  },
+  {
+    "id": "BAT-0036",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-002",
+    "quantity": 101,
+    "manufacture_date": "2025-03-15",
+    "expiry_date": "2026-11-26"
+  },
+  {
+    "id": "BAT-0037",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-002",
+    "quantity": 490,
+    "manufacture_date": "2024-06-21",
+    "expiry_date": "2025-08-14"
+  },
+  {
+    "id": "BAT-0038",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-003",
+    "quantity": 252,
+    "manufacture_date": "2025-05-24",
+    "expiry_date": "2027-03-31"
+  },
+  {
+    "id": "BAT-0039",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-003",
+    "quantity": 201,
+    "manufacture_date": "2024-05-19",
+    "expiry_date": "2025-08-09"
+  },
+  {
+    "id": "BAT-0040",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-003",
+    "quantity": 376,
+    "manufacture_date": "2026-04-12",
+    "expiry_date": "2027-04-12"
+  },
+  {
+    "id": "BAT-0041",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-003",
+    "quantity": 406,
+    "manufacture_date": "2025-05-28",
+    "expiry_date": "2026-07-24"
+  },
+  {
+    "id": "BAT-0042",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-003",
+    "quantity": 285,
+    "manufacture_date": "2025-08-19",
+    "expiry_date": "2026-12-19"
+  },
+  {
+    "id": "BAT-0043",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-003",
+    "quantity": 223,
+    "manufacture_date": "2025-07-12",
+    "expiry_date": "2026-08-24"
+  },
+  {
+    "id": "BAT-0044",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-003",
+    "quantity": 474,
+    "manufacture_date": "2024-11-20",
+    "expiry_date": "2026-08-19"
+  },
+  {
+    "id": "BAT-0045",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-003",
+    "quantity": 492,
+    "manufacture_date": "2023-12-07",
+    "expiry_date": "2025-08-06"
+  },
+  {
+    "id": "BAT-0046",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-003",
+    "quantity": 184,
+    "manufacture_date": "2025-10-17",
+    "expiry_date": "2027-05-21"
+  },
+  {
+    "id": "BAT-0047",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-003",
+    "quantity": 208,
+    "manufacture_date": "2026-03-23",
+    "expiry_date": "2027-07-03"
+  },
+  {
+    "id": "BAT-0048",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-003",
+    "quantity": 465,
+    "manufacture_date": "2025-07-26",
+    "expiry_date": "2027-06-23"
+  },
+  {
+    "id": "BAT-0049",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-003",
+    "quantity": 291,
+    "manufacture_date": "2025-08-17",
+    "expiry_date": "2027-04-05"
+  },
+  {
+    "id": "BAT-0050",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-003",
+    "quantity": 161,
+    "manufacture_date": "2024-01-27",
+    "expiry_date": "2025-07-18"
+  },
+  {
+    "id": "BAT-0051",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-003",
+    "quantity": 401,
+    "manufacture_date": "2026-01-20",
+    "expiry_date": "2027-05-12"
+  },
+  {
+    "id": "BAT-0052",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-003",
+    "quantity": 103,
+    "manufacture_date": "2024-05-05",
+    "expiry_date": "2025-06-04"
+  },
+  {
+    "id": "BAT-0053",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-003",
+    "quantity": 217,
+    "manufacture_date": "2024-01-25",
+    "expiry_date": "2025-07-12"
+  },
+  {
+    "id": "BAT-0054",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-003",
+    "quantity": 363,
+    "manufacture_date": "2023-12-02",
+    "expiry_date": "2025-08-06"
+  },
+  {
+    "id": "BAT-0055",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-003",
+    "quantity": 209,
+    "manufacture_date": "2025-07-12",
+    "expiry_date": "2027-05-03"
+  },
+  {
+    "id": "BAT-0056",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-003",
+    "quantity": 342,
+    "manufacture_date": "2024-01-05",
+    "expiry_date": "2025-07-31"
+  },
+  {
+    "id": "BAT-0057",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-004",
+    "quantity": 148,
+    "manufacture_date": "2023-12-19",
+    "expiry_date": "2025-06-17"
+  },
+  {
+    "id": "BAT-0058",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-004",
+    "quantity": 316,
+    "manufacture_date": "2024-09-01",
+    "expiry_date": "2026-08-11"
+  },
+  {
+    "id": "BAT-0059",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-004",
+    "quantity": 434,
+    "manufacture_date": "2025-08-03",
+    "expiry_date": "2026-09-03"
+  },
+  {
+    "id": "BAT-0060",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-004",
+    "quantity": 472,
+    "manufacture_date": "2025-05-04",
+    "expiry_date": "2026-09-08"
+  },
+  {
+    "id": "BAT-0061",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-004",
+    "quantity": 198,
+    "manufacture_date": "2024-05-20",
+    "expiry_date": "2025-07-30"
+  },
+  {
+    "id": "BAT-0062",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-004",
+    "quantity": 316,
+    "manufacture_date": "2024-03-25",
+    "expiry_date": "2025-07-30"
+  },
+  {
+    "id": "BAT-0063",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-004",
+    "quantity": 138,
+    "manufacture_date": "2026-03-03",
+    "expiry_date": "2027-04-22"
+  },
+  {
+    "id": "BAT-0064",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-004",
+    "quantity": 433,
+    "manufacture_date": "2025-06-05",
+    "expiry_date": "2026-07-22"
+  },
+  {
+    "id": "BAT-0065",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-004",
+    "quantity": 485,
+    "manufacture_date": "2025-03-14",
+    "expiry_date": "2026-10-08"
+  },
+  {
+    "id": "BAT-0066",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-004",
+    "quantity": 348,
+    "manufacture_date": "2026-01-06",
+    "expiry_date": "2027-02-05"
+  },
+  {
+    "id": "BAT-0067",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-004",
+    "quantity": 294,
+    "manufacture_date": "2024-02-06",
+    "expiry_date": "2025-06-20"
+  },
+  {
+    "id": "BAT-0068",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-004",
+    "quantity": 332,
+    "manufacture_date": "2025-09-25",
+    "expiry_date": "2027-07-06"
+  },
+  {
+    "id": "BAT-0069",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-004",
+    "quantity": 438,
+    "manufacture_date": "2025-06-27",
+    "expiry_date": "2026-10-02"
+  },
+  {
+    "id": "BAT-0070",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-004",
+    "quantity": 211,
+    "manufacture_date": "2025-08-03",
+    "expiry_date": "2027-05-07"
+  },
+  {
+    "id": "BAT-0071",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-004",
+    "quantity": 131,
+    "manufacture_date": "2025-07-19",
+    "expiry_date": "2026-08-13"
+  },
+  {
+    "id": "BAT-0072",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-004",
+    "quantity": 399,
+    "manufacture_date": "2026-01-22",
+    "expiry_date": "2027-04-12"
+  },
+  {
+    "id": "BAT-0073",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-004",
+    "quantity": 129,
+    "manufacture_date": "2025-05-22",
+    "expiry_date": "2026-08-25"
+  },
+  {
+    "id": "BAT-0074",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-005",
+    "quantity": 404,
+    "manufacture_date": "2024-01-21",
+    "expiry_date": "2025-05-20"
+  },
+  {
+    "id": "BAT-0075",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-005",
+    "quantity": 306,
+    "manufacture_date": "2023-10-27",
+    "expiry_date": "2025-08-13"
+  },
+  {
+    "id": "BAT-0076",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-005",
+    "quantity": 226,
+    "manufacture_date": "2024-09-21",
+    "expiry_date": "2026-08-04"
+  },
+  {
+    "id": "BAT-0077",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-005",
+    "quantity": 314,
+    "manufacture_date": "2025-08-06",
+    "expiry_date": "2027-04-30"
+  },
+  {
+    "id": "BAT-0078",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-005",
+    "quantity": 261,
+    "manufacture_date": "2024-11-19",
+    "expiry_date": "2026-10-27"
+  },
+  {
+    "id": "BAT-0079",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-005",
+    "quantity": 466,
+    "manufacture_date": "2025-05-09",
+    "expiry_date": "2026-11-27"
+  },
+  {
+    "id": "BAT-0080",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-005",
+    "quantity": 443,
+    "manufacture_date": "2025-09-26",
+    "expiry_date": "2027-03-06"
+  },
+  {
+    "id": "BAT-0081",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-005",
+    "quantity": 484,
+    "manufacture_date": "2024-11-27",
+    "expiry_date": "2026-07-19"
+  },
+  {
+    "id": "BAT-0082",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-005",
+    "quantity": 418,
+    "manufacture_date": "2025-07-29",
+    "expiry_date": "2026-09-04"
+  },
+  {
+    "id": "BAT-0083",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-005",
+    "quantity": 209,
+    "manufacture_date": "2025-03-26",
+    "expiry_date": "2026-09-20"
+  },
+  {
+    "id": "BAT-0084",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-005",
+    "quantity": 135,
+    "manufacture_date": "2025-08-28",
+    "expiry_date": "2027-01-20"
+  },
+  {
+    "id": "BAT-0085",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-005",
+    "quantity": 180,
+    "manufacture_date": "2025-04-24",
+    "expiry_date": "2027-04-19"
+  },
+  {
+    "id": "BAT-0086",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-005",
+    "quantity": 254,
+    "manufacture_date": "2025-09-17",
+    "expiry_date": "2027-06-14"
+  },
+  {
+    "id": "BAT-0087",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-005",
+    "quantity": 104,
+    "manufacture_date": "2025-11-22",
+    "expiry_date": "2027-04-24"
+  },
+  {
+    "id": "BAT-0088",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-005",
+    "quantity": 153,
+    "manufacture_date": "2025-05-09",
+    "expiry_date": "2026-09-21"
+  },
+  {
+    "id": "BAT-0089",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-005",
+    "quantity": 159,
+    "manufacture_date": "2026-02-04",
+    "expiry_date": "2027-04-24"
+  },
+  {
+    "id": "BAT-0090",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-005",
+    "quantity": 239,
+    "manufacture_date": "2025-05-08",
+    "expiry_date": "2026-10-30"
+  },
+  {
+    "id": "BAT-0091",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-005",
+    "quantity": 204,
+    "manufacture_date": "2025-03-14",
+    "expiry_date": "2026-11-27"
+  },
+  {
+    "id": "BAT-0092",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-005",
+    "quantity": 350,
+    "manufacture_date": "2025-06-24",
+    "expiry_date": "2026-08-10"
+  },
+  {
+    "id": "BAT-0093",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-006",
+    "quantity": 316,
+    "manufacture_date": "2025-08-05",
+    "expiry_date": "2026-08-06"
+  },
+  {
+    "id": "BAT-0094",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-006",
+    "quantity": 270,
+    "manufacture_date": "2026-01-23",
+    "expiry_date": "2027-06-06"
+  },
+  {
+    "id": "BAT-0095",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-006",
+    "quantity": 182,
+    "manufacture_date": "2025-04-27",
+    "expiry_date": "2027-04-23"
+  },
+  {
+    "id": "BAT-0096",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-006",
+    "quantity": 318,
+    "manufacture_date": "2025-08-03",
+    "expiry_date": "2026-09-10"
+  },
+  {
+    "id": "BAT-0097",
+    "medicine_id": "MED-001",
+    "facility_id": "FAC-006",
+    "quantity": 453,
+    "manufacture_date": "2026-04-02",
+    "expiry_date": "2027-04-20"
+  },
+  {
+    "id": "BAT-0098",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-006",
+    "quantity": 398,
+    "manufacture_date": "2025-12-17",
+    "expiry_date": "2027-02-20"
+  },
+  {
+    "id": "BAT-0099",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-006",
+    "quantity": 121,
+    "manufacture_date": "2025-02-02",
+    "expiry_date": "2026-08-04"
+  },
+  {
+    "id": "BAT-0100",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-006",
+    "quantity": 207,
+    "manufacture_date": "2026-04-30",
+    "expiry_date": "2027-06-21"
+  },
+  {
+    "id": "BAT-0101",
+    "medicine_id": "MED-002",
+    "facility_id": "FAC-006",
+    "quantity": 281,
+    "manufacture_date": "2025-03-28",
+    "expiry_date": "2027-02-08"
+  },
+  {
+    "id": "BAT-0102",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-006",
+    "quantity": 179,
+    "manufacture_date": "2025-08-22",
+    "expiry_date": "2026-11-13"
+  },
+  {
+    "id": "BAT-0103",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-006",
+    "quantity": 190,
+    "manufacture_date": "2025-04-27",
+    "expiry_date": "2026-07-27"
+  },
+  {
+    "id": "BAT-0104",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-006",
+    "quantity": 477,
+    "manufacture_date": "2025-03-05",
+    "expiry_date": "2027-02-10"
+  },
+  {
+    "id": "BAT-0105",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-006",
+    "quantity": 476,
+    "manufacture_date": "2025-09-08",
+    "expiry_date": "2026-11-28"
+  },
+  {
+    "id": "BAT-0106",
+    "medicine_id": "MED-003",
+    "facility_id": "FAC-006",
+    "quantity": 459,
+    "manufacture_date": "2024-07-24",
+    "expiry_date": "2025-08-12"
+  },
+  {
+    "id": "BAT-0107",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-006",
+    "quantity": 213,
+    "manufacture_date": "2023-12-23",
+    "expiry_date": "2025-08-14"
+  },
+  {
+    "id": "BAT-0108",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-006",
+    "quantity": 279,
+    "manufacture_date": "2025-07-17",
+    "expiry_date": "2026-11-08"
+  },
+  {
+    "id": "BAT-0109",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-006",
+    "quantity": 112,
+    "manufacture_date": "2025-08-20",
+    "expiry_date": "2027-02-04"
+  },
+  {
+    "id": "BAT-0110",
+    "medicine_id": "MED-004",
+    "facility_id": "FAC-006",
+    "quantity": 242,
+    "manufacture_date": "2025-06-08",
+    "expiry_date": "2026-12-04"
+  },
+  {
+    "id": "BAT-0111",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-006",
+    "quantity": 360,
+    "manufacture_date": "2025-10-28",
+    "expiry_date": "2027-04-15"
+  },
+  {
+    "id": "BAT-0112",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-006",
+    "quantity": 114,
+    "manufacture_date": "2024-04-24",
+    "expiry_date": "2025-07-24"
+  },
+  {
+    "id": "BAT-0113",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-006",
+    "quantity": 397,
+    "manufacture_date": "2025-11-08",
+    "expiry_date": "2026-11-27"
+  },
+  {
+    "id": "BAT-0114",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-006",
+    "quantity": 155,
+    "manufacture_date": "2025-07-31",
+    "expiry_date": "2027-01-07"
+  },
+  {
+    "id": "BAT-0115",
+    "medicine_id": "MED-005",
+    "facility_id": "FAC-006",
+    "quantity": 323,
+    "manufacture_date": "2026-02-02",
+    "expiry_date": "2027-04-02"
+  }
+]
