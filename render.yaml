@@ -1,0 +1,39 @@
+services:
+  # -------------------------------------------------------------------------
+  # 1. PROBAHO AI Service (Python FastAPI + OR-Tools + Scikit-Learn)
+  # -------------------------------------------------------------------------
+  - type: web
+    name: probaho-ai-service
+    runtime: python
+    rootDir: ai-service
+    plan: free
+    buildCommand: "pip install --upgrade pip && pip install -r requirements.txt && python -m seed.generator"
+    startCommand: "uvicorn main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: GEMINI_API_KEY
+        sync: false
+
+  # -------------------------------------------------------------------------
+  # 2. PROBAHO Backend Gateway (Node.js + Express)
+  # -------------------------------------------------------------------------
+  - type: web
+    name: probaho-backend
+    runtime: node
+    rootDir: backend
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: AI_SERVICE_URL
+        fromService:
+          type: web
+          name: probaho-ai-service
+          property: host
+      - key: CORS_ORIGIN
+        value: "*"
